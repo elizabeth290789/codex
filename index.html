@@ -3,15 +3,444 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Привет, мир</title>
+    <title>CRM нового поколения — тёмный лендинг</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <main class="hero">
-      <h1 class="hero-title">Привет, мир</h1>
-      <button class="hero-button" type="button">Нажми меня</button>
+  <body class="page">
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="logo">CRM<span>360</span></div>
+        <nav class="nav">
+          <a href="#features">Возможности</a>
+          <a href="#automation">Автоматизация</a>
+          <a href="#integrations">Интеграции</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <button class="ghost-button" type="button" data-modal-open>
+          Получить демо
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">CRM для продаж, маркетинга и сервиса</p>
+            <h1>
+              CRM помогает продавать больше: ведите сделки, автоматизируйте
+              воронку и общайтесь с клиентами в одном окне
+            </h1>
+            <p class="lead">
+              Лиды, звонки, чаты, счета и документы — всё в единой системе, как
+              на витрине CRM Bitrix24. Никаких потерянных заявок и ручных таблиц.
+            </p>
+            <div class="hero-actions">
+              <button class="primary-button" type="button" data-modal-open>
+                Запросить персональный показ
+              </button>
+              <button class="secondary-button" type="button" data-scroll="features">
+                Смотреть возможности
+              </button>
+            </div>
+            <div class="hero-highlights">
+              <div>
+                <strong>+38%</strong>
+                <span>скорость обработки лидов</span>
+              </div>
+              <div>
+                <strong>360°</strong>
+                <span>карточка клиента</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>контроль качества продаж</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="glass-card">
+              <div class="glass-header">
+                <span>Сделка #2481</span>
+                <span class="status">В работе</span>
+              </div>
+              <div class="glass-body">
+                <p>«Венчурный пакет CRM + телефония»</p>
+                <div class="progress">
+                  <span style="width: 68%"></span>
+                </div>
+                <div class="glass-footer">
+                  <div>
+                    <strong>1 280 000 ₽</strong>
+                    <span>потенциал</span>
+                  </div>
+                  <button type="button">Созвон</button>
+                </div>
+              </div>
+            </div>
+            <div class="floating-card">
+              <span>Смарт-процесс</span>
+              <strong>Автоматический счёт</strong>
+              <p>Выставлен через робота в 16:24</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics">
+        <div class="container metrics-grid">
+          <div>
+            <h2 data-counter="120">0</h2>
+            <p>каналов коммуникаций в одном окне</p>
+          </div>
+          <div>
+            <h2 data-counter="85">0</h2>
+            <p>процессов можно автоматизировать без кода</p>
+          </div>
+          <div>
+            <h2 data-counter="42">0</h2>
+            <p>готовых сценария продаж по отраслям</p>
+          </div>
+          <div>
+            <h2 data-counter="15">0</h2>
+            <p>минут до запуска CRM «под ключ»</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Возможности, которые делают CRM центром продаж</h2>
+            <p>
+              Держите клиентов под контролем: сделки, задачи, звонки, письма,
+              счета и аналитика, как в функциональных блоках Bitrix24 CRM.
+            </p>
+          </div>
+          <div class="features-grid">
+            <article class="feature-card">
+              <h3>Сквозная воронка продаж</h3>
+              <p>
+                Стройте стадии, автоматизируйте переходы, фиксируйте причины
+                отказов и закрывайте сделки быстрее.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Контакт-центр 24/7</h3>
+              <p>
+                Сообщения из чатов, мессенджеров и почты попадают в CRM и не
+                теряются — вся история внутри карточки клиента.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>CRM-маркетинг</h3>
+              <p>
+                Сегменты, рассылки, триггеры и аналитика конверсий в одном
+                конструкторе, как в CRM маркетинге Bitrix24.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Счета и документы</h3>
+              <p>
+                Шаблоны, электронные подписи и автоматическое выставление счетов
+                прямо из сделки.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Сквозная аналитика</h3>
+              <p>
+                От лида до оплаты: доходность, источники, эффективность
+                менеджеров и прогнозы.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Мобильная CRM</h3>
+              <p>
+                Закрывайте сделки и контролируйте команду со смартфона — в дороге
+                и на встречах.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pipeline">
+        <div class="container pipeline-grid">
+          <div>
+            <h2>Единая карточка клиента 360°</h2>
+            <p>
+              Вся история общения, документы и задачи собраны в одном окне.
+              Настраивайте поля, подключайте телефонию и подписывайте счета
+              прямо в CRM.
+            </p>
+            <ul class="checklist">
+              <li>Встроенные звонки и запись разговоров</li>
+              <li>Автоматические напоминания и контроль SLA</li>
+              <li>Быстрый доступ к любому файлу сделки</li>
+            </ul>
+          </div>
+          <div class="pipeline-steps">
+            <div class="step">
+              <span>1</span>
+              <p>Новый лид</p>
+            </div>
+            <div class="step">
+              <span>2</span>
+              <p>Квалификация</p>
+            </div>
+            <div class="step">
+              <span>3</span>
+              <p>Коммерческое</p>
+            </div>
+            <div class="step active">
+              <span>4</span>
+              <p>Договор</p>
+            </div>
+            <div class="step">
+              <span>5</span>
+              <p>Оплата</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="automation" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Автоматизация продаж и сервиса</h2>
+            <p>
+              Роботы и триггеры помогают не забывать о клиентах, выставлять счета
+              и запускать сценарии без кода.
+            </p>
+          </div>
+          <div class="tabs">
+            <div class="tab-buttons" role="tablist">
+              <button class="tab-button active" type="button" data-tab="sales">
+                Продажи
+              </button>
+              <button class="tab-button" type="button" data-tab="marketing">
+                Маркетинг
+              </button>
+              <button class="tab-button" type="button" data-tab="service">
+                Сервис
+              </button>
+            </div>
+            <div class="tab-panels">
+              <article class="tab-panel active" data-panel="sales">
+                <h3>Роботы ведут сделку сами</h3>
+                <p>
+                  Автоматически ставьте задачи, изменяйте стадии, отправляйте
+                  документы и напоминания менеджерам.
+                </p>
+                <ul>
+                  <li>Автоназначение ответственного</li>
+                  <li>Шаблоны коммерческих предложений</li>
+                  <li>Контроль сроков и SLA</li>
+                </ul>
+              </article>
+              <article class="tab-panel" data-panel="marketing">
+                <h3>CRM-маркетинг в действии</h3>
+                <p>
+                  Запускайте рассылки, анализируйте отклики и возвращайте клиентов
+                  в воронку из сегментов.
+                </p>
+                <ul>
+                  <li>Сценарии реактивации</li>
+                  <li>Скоринг лидов и сегменты</li>
+                  <li>Подключение SMS, email, мессенджеров</li>
+                </ul>
+              </article>
+              <article class="tab-panel" data-panel="service">
+                <h3>Сервисная поддержка</h3>
+                <p>
+                  Единый центр обработки обращений, SLA, контроль качества и
+                  база знаний внутри CRM.
+                </p>
+                <ul>
+                  <li>Очереди и распределение заявок</li>
+                  <li>Контроль показателей первой реакции</li>
+                  <li>Оценка качества сервиса</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="integrations" class="section integrations">
+        <div class="container">
+          <div class="section-header">
+            <h2>Интеграции без ограничений</h2>
+            <p>
+              Подключайте телефонию, мессенджеры, сайты, рекламу и 1С —
+              экосистема открыта для вашего бизнеса.
+            </p>
+          </div>
+          <div class="integrations-grid">
+            <div class="integration">1С + CRM</div>
+            <div class="integration">WhatsApp</div>
+            <div class="integration">Telegram</div>
+            <div class="integration">ВКонтакте</div>
+            <div class="integration">Яндекс.Директ</div>
+            <div class="integration">Google Ads</div>
+            <div class="integration">IP-телефония</div>
+            <div class="integration">BI-аналитика</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="section cases">
+        <div class="container">
+          <div class="section-header">
+            <h2>Кейсы компаний, которые перестроили продажи</h2>
+            <p>
+              Команды видят полную картину по клиенту, ускоряют сделки и
+              контролируют воронку в реальном времени.
+            </p>
+          </div>
+          <div class="cases-grid">
+            <article class="case-card">
+              <h3>Девелоперский холдинг</h3>
+              <p>
+                Ускорили цикл сделки на 32%, подключили телефонию и контроль
+                качества звонков.
+              </p>
+              <span>180 менеджеров</span>
+            </article>
+            <article class="case-card">
+              <h3>Онлайн-ритейл</h3>
+              <p>
+                Автоматизировали счета и документы, сократив ручную работу на
+                40%.
+              </p>
+              <span>15 филиалов</span>
+            </article>
+            <article class="case-card">
+              <h3>B2B-интегратор</h3>
+              <p>
+                Построили воронку с сегментацией и сквозной аналитикой по
+                источникам.
+              </p>
+              <span>12 каналов продаж</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="container">
+          <div class="section-header">
+            <h2>Ответы на популярные вопросы</h2>
+            <p>
+              Быстро разберитесь, как CRM запускается и адаптируется под вашу
+              команду.
+            </p>
+          </div>
+          <div class="accordion">
+            <button class="accordion-item" type="button">
+              <span>Сколько времени занимает запуск CRM?</span>
+              <span class="icon">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>
+                Пилотный запуск возможен за один день: переносим лиды, настраиваем
+                воронки и подключаем каналы связи.
+              </p>
+            </div>
+            <button class="accordion-item" type="button">
+              <span>Можно ли автоматизировать продажи без программистов?</span>
+              <span class="icon">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>
+                Да, роботы и триггеры настраиваются визуально, а готовые шаблоны
+                ускоряют запуск сценариев.
+              </p>
+            </div>
+            <button class="accordion-item" type="button">
+              <span>Как подключить телефонию и чаты?</span>
+              <span class="icon">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>
+                CRM поддерживает популярные интеграции с операторами, мессенджерами
+                и виджетами на сайте.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-grid">
+          <div>
+            <h2>Хотите увидеть CRM в деле?</h2>
+            <p>
+              Получите персональную демонстрацию, настройку воронки и список
+              сценариев под ваш бизнес.
+            </p>
+          </div>
+          <button class="primary-button" type="button" data-modal-open>
+            Записаться на демо
+          </button>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">CRM<span>360</span></div>
+          <p>Центр управления продажами, коммуникациями и аналитикой.</p>
+        </div>
+        <div>
+          <h4>Продукт</h4>
+          <ul>
+            <li><a href="#features">Возможности</a></li>
+            <li><a href="#automation">Автоматизация</a></li>
+            <li><a href="#integrations">Интеграции</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="#cases">Кейсы</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Политика</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2024 CRM360. Все права защищены.</p>
+    </footer>
+
+    <div class="modal" data-modal>
+      <div class="modal-content">
+        <button class="modal-close" type="button" data-modal-close>✕</button>
+        <h3>Запросить демо</h3>
+        <p>Оставьте контакты — покажем CRM и дадим чек-лист запуска.</p>
+        <form class="modal-form">
+          <label>
+            Имя
+            <input type="text" placeholder="Ирина" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="example@company.ru" required />
+          </label>
+          <label>
+            Телефон
+            <input type="tel" placeholder="+7 (999) 123-45-67" required />
+          </label>
+          <button class="primary-button" type="submit">
+            Получить презентацию
+          </button>
+        </form>
+        <p class="modal-note">Мы свяжемся в течение рабочего дня.</p>
+      </div>
+    </div>
+
     <script src="js/script.js"></script>
   </body>
 </html>
