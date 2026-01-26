@@ -230,6 +230,13 @@ a {
   margin-bottom: 8px;
 }
 
+.metrics h2 .metrics-small {
+  display: block;
+  font-size: 0.45em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .marta {
   padding: 70px 0;
 }
