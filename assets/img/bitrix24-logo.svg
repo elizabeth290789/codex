@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60" role="img" aria-label="Битрикс24">
+  <defs>
+    <linearGradient id="bitrixGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18B4E9" />
+      <stop offset="100%" stop-color="#0F6BB3" />
+    </linearGradient>
+  </defs>
+  <rect width="220" height="60" fill="none" />
+  <text x="6" y="42" font-family="'Arial', sans-serif" font-size="38" font-weight="700" fill="url(#bitrixGradient)">Битрикс</text>
+  <text x="155" y="42" font-family="'Arial', sans-serif" font-size="38" font-weight="700" fill="#0F6BB3">24</text>
+  <circle cx="208" cy="18" r="10" fill="none" stroke="#0F6BB3" stroke-width="5" />
+  <line x1="208" y1="18" x2="208" y2="10" stroke="#0F6BB3" stroke-width="4" stroke-linecap="round" />
+  <line x1="208" y1="18" x2="214" y2="18" stroke="#0F6BB3" stroke-width="4" stroke-linecap="round" />
+</svg>
