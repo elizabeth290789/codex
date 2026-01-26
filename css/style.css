@@ -325,6 +325,66 @@ a {
   background: rgba(123, 92, 255, 0.08);
 }
 
+.ai-crm {
+  background: radial-gradient(circle at top left, rgba(123, 92, 255, 0.2), transparent 45%),
+    var(--bg);
+}
+
+.ai-crm-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
+}
+
+.ai-crm-intro h3 {
+  font-size: clamp(22px, 3vw, 32px);
+  margin: 12px 0 16px;
+}
+
+.ai-crm-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.ai-crm-highlights div {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--border);
+}
+
+.ai-crm-highlights strong {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.ai-crm-tabs {
+  background: linear-gradient(140deg, rgba(21, 27, 46, 0.8), rgba(17, 22, 38, 0.9));
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.ai-crm-tabs .tab-buttons {
+  gap: 10px;
+}
+
+.ai-crm-tabs .tab-button {
+  border: 1px solid transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ai-crm-tabs .tab-button:hover {
+  border-color: rgba(123, 92, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.ai-crm-tabs .tab-panel h3 {
+  margin-top: 0;
+}
+
 .pipeline {
   background: var(--bg-alt);
 }
