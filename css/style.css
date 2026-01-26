@@ -8,6 +8,22 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .hero-button {
   padding: 32px 80px;
   font-size: 32px;
