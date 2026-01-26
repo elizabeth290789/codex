@@ -18,16 +18,19 @@ modal.addEventListener("click", (event) => {
   }
 });
 
-const tabButtons = document.querySelectorAll(".tab-button");
-const tabPanels = document.querySelectorAll(".tab-panel");
+const tabGroups = document.querySelectorAll(".tabs");
 
-tabButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const target = button.dataset.tab;
-    tabButtons.forEach((btn) => btn.classList.remove("active"));
-    button.classList.add("active");
-    tabPanels.forEach((panel) => {
-      panel.classList.toggle("active", panel.dataset.panel === target);
+tabGroups.forEach((group) => {
+  const buttons = group.querySelectorAll(".tab-button");
+  const panels = group.querySelectorAll(".tab-panel");
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+      buttons.forEach((btn) => btn.classList.remove("active"));
+      button.classList.add("active");
+      panels.forEach((panel) => {
+        panel.classList.toggle("active", panel.dataset.panel === target);
+      });
     });
   });
 });
