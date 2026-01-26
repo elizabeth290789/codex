@@ -281,6 +281,43 @@ a {
   margin-bottom: 8px;
 }
 
+.marta {
+  padding: 70px 0;
+}
+
+.marta-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+  background: linear-gradient(135deg, rgba(123, 92, 255, 0.12), rgba(48, 213, 200, 0.12));
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  padding: 32px 36px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.marta-content h2 {
+  margin: 12px 0 16px;
+  font-size: clamp(24px, 3vw, 36px);
+}
+
+.marta-content .lead {
+  margin: 0 0 20px;
+}
+
+.marta-visual {
+  display: grid;
+  place-items: center;
+}
+
+.marta-visual img {
+  width: min(420px, 100%);
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
 .section {
   padding: 80px 0;
 }
